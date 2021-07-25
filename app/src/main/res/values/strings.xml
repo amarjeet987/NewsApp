@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <!-- strings for app -->
+    <string name="headingHome">HEADLINES</string>
+</resources>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/article_view"
+    tools:context=".ui.ArticleFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/image"
+        android:scaleType="centerCrop"/>
+
+    <RelativeLayout
+        android:layout_width="@dimen/articleBackBtn"
+        android:layout_height="@dimen/articleBackBtn"
+        android:id="@+id/back"
+        android:background="@drawable/transluscent_circle"
+        android:layout_margin="@dimen/articleMarginH">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_back"
+            android:padding="@dimen/backBtnPadding"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/card_gradient"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="@dimen/articleMarginH">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boeing dedicated $100 million to victims of 737 Max crashes"
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_slab_regular"
+            android:textSize="@dimen/articleTitle"
+            android:id="@+id/title"
+            android:layout_marginBottom="@dimen/articleTitleDateSpacing"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CNN"
+                android:textColor="@color/white"
+                android:id="@+id/source"
+                android:fontFamily="@font/roboto_slab_bold"
+                android:textSize="@dimen/articleSourceDate"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2019-07-03"
+                android:id="@+id/date"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:layout_marginStart="@dimen/sourceDateSpacing"
+                android:layout_marginLeft="@dimen/sourceDateSpacing"
+                android:fontFamily="@font/roboto_slab_regular"
+                android:textSize="@dimen/articleSourceDate" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sed lacinia purus. Cras auctor vehicula commodo. Morbi condimentum neque ac tellus volutpat, at congue eros suscipit. Nullam nibh quam, aliquam at pretium nec, pellentesque non ipsum. "
+            android:textColor="@color/white"
+            android:fontFamily="@font/roboto_slab_regular"
+            android:textSize="@dimen/articleBodyText"
+            android:id="@+id/content"
+            android:layout_marginVertical="@dimen/articleBodyMarginT"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text -->
+    <dimen name="pageTitleHead">29sp</dimen>
+    <dimen name="cardTitle">20sp</dimen>
+    <dimen name="articleTitle">29sp</dimen>
+    <dimen name="articleBodyText">14sp</dimen>
+    <dimen name="articleSourceDate">20sp</dimen>
+    <dimen name="homeSourceDate">12sp</dimen>
+    <!-- Others -->
+    <dimen name="letterSpacingHead">0.15</dimen>
+    <dimen name="cardTitleDateSpacing">24dp</dimen>
+    <dimen name="cardElevation">10dp</dimen>
+    <dimen name="articleTitleDateSpacing">64sp</dimen>
+    <dimen name="sourceDateSpacing">16dp</dimen>
+    <dimen name="paddingHead">20dp</dimen>
+    <dimen name="newsCardHeight">220dp</dimen>
+    <dimen name="newsCardRadius">10dp</dimen>
+    <dimen name="newsCardPaddingH">16dp</dimen>
+    <dimen name="newsCardPaddingV">12dp</dimen>
+    <dimen name="newsCardBodyMargin">12dp</dimen>
+    <dimen name="newsCardHeadMargin">12dp</dimen>
+    <dimen name="articleMarginH">24dp</dimen>
+    <dimen name="articleBodyMarginT">16dp</dimen>
+    <dimen name="articleBackBtn">42dp</dimen>
+    <dimen name="backBtnPadding">5dp</dimen>
+</resources>
